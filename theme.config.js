@@ -4,7 +4,7 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Your Name.
+        <time>{2023}</time> © Sneha Michelle.
         <a href="/feed.xml">RSS</a>
       </small>
       <style jsx>{`
