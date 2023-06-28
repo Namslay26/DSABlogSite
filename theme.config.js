@@ -1,6 +1,20 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  components: {
+    h2: ({ children }) => (
+      <h1 style={{
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        backgroundClip: 'text',
+        backgroundImage: 'linear-gradient(90deg,#FFFFFF,#f5b402)',
+      }}
+      >
+        {children}
+      </h1>
+    )
+    
+  },
   footer: (
     <footer>
       <small>

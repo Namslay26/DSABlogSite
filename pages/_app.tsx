@@ -20,6 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
+        <script src="https://kit.fontawesome.com/0256db55fe.js" crossOrigin="anonymous"></script>
       </Head>
       <Component {...pageProps} />
     </>
