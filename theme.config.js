@@ -5,7 +5,6 @@ export default {
     h2: ({ children }) => (
       <h1 style={{
         WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
         backgroundClip: 'text',
         backgroundImage: 'linear-gradient(90deg,#FFFFFF,#f5b402)',
       }}
@@ -15,6 +14,7 @@ export default {
     )
     
   },
+  darkMode: true,
   footer: (
     <footer>
       <small>
