@@ -11,7 +11,7 @@ author: Sneha Michelle
 ## Problem Statement 
 ![](https://assets.leetcode.com/uploads/2021/03/14/invert1-tree.jpg)
 * Here's a tree, and we need to reverse/invert the elements of the tree on each level
-* Check how in each level, the nodes are changed across subtrees. 
+* Check how in each level, the nodes are changed across subtrees.
 ---
 
 ## Algorithm 
