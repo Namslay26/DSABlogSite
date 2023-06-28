@@ -1,0 +1,53 @@
+---
+type: page
+title: Theory
+date: 2023-06-23
+---
+
+# AllPosts
+
+## Concepts
+Here is a compilation of concepts learnt so far! 
+
+---
+
+## Binary Search 
+### Basics 
+
+* Binary Search is an optimised search algorithm. 
+* It is only valid in **sorted** algorithms. 
+* The time complexity is: **O(logn)**
+
+### How it works, 
+* First we have two pointers, left and right. 
+* Left points towards the beginning of the array and right points to the end. 
+* We calculate the median of the array. 
+![](https://hackernoon.com/hn-images/1*DOR__3reJYPwGuyytG520g.jpeg)
+* IF: the target is less than the middle element, we search the left half.
+* ELSE: we search the right half. 
+Repeat this until we've found the element!
+
+
+
+--- 
+
+## Trees
+
+#### Basics
+
+* Trees is a **non-linear data structure**
+* Binary Tree: A tree where every node has **atmost 2 children** 
+* Types of Binary Trees 
+** Full Binary Tree: It either has 2 children, or no children.
+** Complete Binary Tree/Binary Heaps:  The tree is uniformly filled (can be missed out on places, but they are uniformly filled).
+** Perfect Binary Tree: All the parents in this tree have exactly 2 children nodes. All leaves are on the same level!
+
+``` Perfect Binary Tree = Full + Complete ```
+
+#### Traversals in tree
+* **Pre**Order : Node, Left, Right 
+![](https://lh5.googleusercontent.com/b9g2tL87bG9rK2JIMBbZUIVTev9yOmfeJlx8Y_pmUiVDSjpmeof97B6d6ok4p6qrwq8TX2NaRqJKo1uXcqxNGzuHhq4H3uSaICyJcb4ERwsxyF-YVy0Sakb2EjEqlGn__FG_Ml4k)
+* **In**Order: Left, Node, Right
+![](https://lh3.googleusercontent.com/QRTgAbTK-54jPLU87RN4OAXWlBu1WR36LyaANNQ_Pg0N2gKmM0k_30h5S68Dwm_2qledVGQd5Byltj16KO3J5ufZs1ipixS4DKpHTRITXDiHajiLXEjf_sY7Id7e8G7r4mhBbANn)
+* **Post**Order: Left, Right, Node 
+![](https://lh6.googleusercontent.com/dyKoxSFKtdnpEVpNOV1_460ovzzLqcIe7rRplr6YrUheWqVJgtk9GztN-QHkvbxtJlDCo8_Y5NzLevE0dNxsitYjV0o3hUruNwcxYDteBGTzNg9knB0kfOMMmtY5B7Xrie2tnd86)
