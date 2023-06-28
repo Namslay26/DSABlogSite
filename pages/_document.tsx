@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Study DSA!',
     description: 'Study DSA at your own pace with this site!',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png',
+    image: '../public/images/StudyDSAsite.jpg',
   }
 
   return (
