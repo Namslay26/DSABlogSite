@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Study DSA!',
     description: 'Study DSA at your own pace with this site!',
-    image: '../public/images/StudyDSAsite.jpg',
+    image: '/images/StudyDSAsite.jpg',
   }
 
   return (
